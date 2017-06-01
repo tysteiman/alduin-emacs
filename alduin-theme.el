@@ -52,7 +52,10 @@
   ;;;; fringe
   `(fringe ((t (:background ,alduin-black))))
   ;;;; hl line
-  `(hl-line ((t (:background ,alduin-black-alt))))))
+  `(hl-line ((t (:background ,alduin-black-alt))))
+  ;;;; dired
+  `(dired-directory ((t (:foreground ,alduin-red))))
+  `(dired-symlink ((t (:foreground ,alduin-yellow))))))
 
 ;;;###autoload
 (and load-file-name
