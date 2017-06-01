@@ -47,7 +47,8 @@
   ;;;; variables
   `(font-lock-variable-name-face ((t (:foreground ,alduin-cyan))))
   ;;;; mode line
-  `(mode-line ((t (:foreground ,alduin-black-bright :background ,alduin-bg :box t :overline nil))))
+  `(mode-line ((t (:foreground ,alduin-bg :background ,alduin-black-bright :box t :overline nil))))
+  `(mode-line-inactive ((t (:foreground ,alduin-black-bright :background ,alduin-bg :box t :overline nil))))
   ;;;; fringe
   `(fringe ((t (:background ,alduin-black))))
   ;;;; hl line
