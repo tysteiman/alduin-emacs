@@ -42,6 +42,7 @@
   ;;;; comments
   `(font-lock-comment-face ((t (:foreground ,alduin-black-bright))))
   `(font-lock-comment-delimiter-face ((t (:foreground ,alduin-black-bright))))
+  `(font-lock-doc-face ((t (:foreground ,alduin-black-bright))))
   ;;;; keywords (if etc)
   `(font-lock-keyword-face ((t (:foreground ,alduin-yellow))))
   ;;;; variables
