@@ -54,8 +54,12 @@
   ;;;; hl line
   `(hl-line ((t (:background ,alduin-black-alt))))
   ;;;; dired
-  `(dired-directory ((t (:foreground ,alduin-red))))
-  `(dired-symlink ((t (:foreground ,alduin-yellow))))))
+  `(dired-directory ((t (:foreground ,alduin-magenta))))
+  `(dired-symlink ((t (:foreground ,alduin-yellow))))
+  ;;;; magit
+  `(magit-section-highlight ((t (:background ,alduin-black-alt))))
+  `(magit-diff-file-heading-highlight ((t (:background ,alduin-black-alt))))
+  `(magit-diff-context-highlight ((t (:background ,alduin-black-alt))))))
 
 ;;;###autoload
 (and load-file-name
